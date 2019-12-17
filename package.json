@@ -1,0 +1,24 @@
+{
+  "name": "crisp-automation",
+  "version": "1.0.0",
+  "description": "Sends automated message for when we staff is on break.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galvanitic/crisp-automation.git"
+  },
+  "author": "Rodolfo Galván",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galvanitic/crisp-automation/issues"
+  },
+  "homepage": "https://github.com/galvanitic/crisp-automation#readme",
+  "dependencies": {
+    "node-crisp-api": "^1.10.1",
+    "nodemon": "^2.0.2"
+  }
+}
