@@ -11,7 +11,7 @@ var CrispClient = new Crisp();
 CrispClient.authenticate(crispAccess.identifier, crispAccess.key);
 
 // NEW MESSAGE
-let newMessage = "Thank you for your interest in PelotonU! We are excited to connect with you about our program! Our offices will be closed starting December 23rd; returning Monday January 6th. If you would like more information on eligibility and admissions into our program please contact our Admissions Manager Janet at jrodriguez@pelotonu.org if you would like more information on a presentation on PelotonU for your group please contact our Recruiter Rodolfo at rgalvan@pelotonu.org. If you have organizational questions or concerns please contact Chief of Staff Leigh Ridge."
+let newMessage = "Thank you for your interest in PelotonU! We are excited to connect with you about our program! Our offices will be closed starting December 21st; returning Monday January 4th. If you would like more information on eligibility and admissions into our program please contact our Admissions Manager Janet at jrodriguez@pelotonu.org. If you are a community partner or will like to be a community partner, contact our Director of Advising and Growth, Jamar Keaton at jamar@pelotonu.org If you have organizational questions or concerns please contact Chief of Staff Leigh Ridge."
 
 // Send message on crisp
 CrispClient.on("message:send", message => {
